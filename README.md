@@ -34,6 +34,10 @@
           https://github.com/Taufiqkhan12/LibraryManagementSystem.git
 
  2. Import the database schema located in **database/library.sql** to set up the required database tables.
+ 
+ 3. Launch the application in your web browser:
+
+         http://your-server/library-management-system/
 
 ## Usage
 
@@ -43,7 +47,15 @@
  4. Generate Reports: Use the reporting feature to obtain information on overdue books, borrower history, and more.
 
 
+## Contributing
 
+Contributions are welcome! If you want to improve this Library Management System or have ideas for new features, please follow these steps:
+
+1.    Fork the repository.
+2.    Create a new branch for your feature: git checkout -b feature-name.
+3.    Commit your changes: git commit -m 'Add some feature'.
+4.    Push to the branch: git push origin feature-name.
+5.    Create a pull request.
 
 
 
