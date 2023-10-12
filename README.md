@@ -29,7 +29,7 @@
 
 ## Installation
 
-  **.** Clone the repository to your web server:
+  - Clone the repository to your web server:
 
            git clone https://github.com/your-username/LibraryManagementSystem.git
 
