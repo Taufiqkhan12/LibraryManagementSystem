@@ -30,11 +30,10 @@
 
    Clone the repository to your web server:
   
-  ### git clone 
+  #### git clone 
   <code>https://github.com/Taufiqkhan12/LibraryManagementSystem.git</code>
 
-
-
+ Import the database schema located in database/library.sql to set up the required database tables.
 
 
 
