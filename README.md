@@ -30,7 +30,7 @@
 
    Clone the repository to your web server:
   
-   ### git clone https://github.com/Taufiqkhan12/LibraryManagementSystem.git
+   git clone https://github.com/Taufiqkhan12/LibraryManagementSystem.git
 
 
 
