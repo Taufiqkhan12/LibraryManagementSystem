@@ -6,4 +6,5 @@ The Library Management System is a web-based application built using HTML, CSS, 
 Features
 
  User Authentication: Secure login and registration for librarians and borrowers.
+
  Book Management: Add, edit, and delete books from the library's collection.
