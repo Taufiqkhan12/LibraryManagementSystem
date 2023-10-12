@@ -24,3 +24,25 @@ The Library Management System is a web-based application built using HTML, CSS, 
    3. JavaScript: Enhances the user interface and handles client-side logic.
    4. PHP: Manages server-side operations and database interactions.
    5. MySQL: Stores and manages data, including books, borrowers, and transaction records.
+
+# Installation
+
+   Clone the repository to your web server:
+   git clone https://github.com/your-username/library-management-system.git
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
