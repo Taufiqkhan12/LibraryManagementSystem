@@ -35,8 +35,12 @@
 
  2. Import the database schema located in database/library.sql to set up the required database tables.
 
+## Usage
 
-
+ 1. Login: Log in with your credentials.
+ 2. Dashboard: Navigate through the various sections of the system, including book management, borrower management, and transactions.
+ 3. Perform Actions: Add books, borrowers, record book checkouts and returns.
+ 4. Generate Reports: Use the reporting feature to obtain information on overdue books, borrower history, and more.
 
 
 
