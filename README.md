@@ -29,7 +29,7 @@
 
 ## Installation
 
-  : :marker Clone the repository to your web server:
+  <script>: :marker</script> Clone the repository to your web server:
 
            git clone https://github.com/your-username/LibraryManagementSystem.git
 
