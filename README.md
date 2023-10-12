@@ -5,7 +5,7 @@
 The Library Management System is a web-based application built using HTML, CSS, JavaScript, and PHP. This system is designed to streamline and automate library operations, making it easier to manage books, borrowers, and administrative tasks within a library. With this system, librarians can efficiently handle book checkouts, returns, book cataloging, and more.
 
 
-# Features
+## Features
 
    1. User Authentication: Secure login and registration for librarians and borrowers.
    2. Book Management: Add, edit, and delete books from the library's collection.
@@ -17,7 +17,7 @@ The Library Management System is a web-based application built using HTML, CSS, 
    8. Responsive Design: The system is designed to work on desktop and mobile devices.
 
 
-# Technologies Used
+## Technologies Used
 
    1. HTML: Provides the structure of the web pages.
    2. CSS: Styles the web pages to make them visually appealing.
@@ -25,7 +25,7 @@ The Library Management System is a web-based application built using HTML, CSS, 
    4. PHP: Manages server-side operations and database interactions.
    5. MySQL: Stores and manages data, including books, borrowers, and transaction records.
 
-# Installation
+## Installation
 
    Clone the repository to your web server:
    git clone https://github.com/your-username/library-management-system.git
