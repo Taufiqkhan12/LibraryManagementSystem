@@ -37,7 +37,7 @@
 
     
 
- * Import the database schema located in *database/library.sql* to set up the required database tables.
+ * Import the database schema located in **database/library.sql** to set up the required database tables.
 
 
  + Launch the application in your web browser:
@@ -57,15 +57,15 @@
 Contributions are welcome! If you want to improve this Library Management System or have ideas for new features, please follow these steps:
 
 -    Fork the repository.
--    Create a new branch for your feature: git checkout -b feature-name.
--    Commit your changes: git commit -m 'Add some feature'.
--    Push to the branch: git push origin feature-name.
+-    Create a new branch for your feature: `git checkout -b feature-name.`
+-    Commit your changes: `git commit -m 'Add some feature'.`
+-    Push to the branch: `git push origin feature-name.`
 -    Create a pull request.
 
 
 ## Contact
 
-If you have any questions or need assistance, feel free to contact us at your-email@example.com.
+If you have any questions or need assistance, feel free to contact us at `your-email@example.com.`
 
 
 ### Thank you for using the Library Management System!
