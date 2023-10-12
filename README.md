@@ -35,7 +35,7 @@
 
            git clone https://github.com/your-username/LibraryManagementSystem.git
 
- * Import the database schema located in `database/library.sql` to set up the required database tables.
+ * Import the database schema located in ***database/library.sql*** to set up the required database tables.
 
 
  + Launch the application in your web browser:
