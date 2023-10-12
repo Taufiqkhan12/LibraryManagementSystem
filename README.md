@@ -53,9 +53,9 @@
 Contributions are welcome! If you want to improve this Library Management System or have ideas for new features, please follow these steps:
 
 -    Fork the repository.
--    Create a new branch for your feature: git checkout -b feature-name.
--    Commit your changes: git commit -m 'Add some feature'.
--    Push to the branch: git push origin feature-name.
+-    Create a new branch for your feature: `git checkout -b feature-name.`
+-    Commit your changes: `git commit -m 'Add some feature'.`
+-    Push to the branch: `git push origin feature-name.`
 -    Create a pull request.
 
 
