@@ -18,6 +18,7 @@
    - Responsive Design: The system is designed to work on desktop and mobile devices.
 
 
+
 ## Technologies Used
 
    - HTML: Provides the structure of the web pages.
@@ -25,6 +26,7 @@
    - JavaScript: Enhances the user interface and handles client-side logic.
    - PHP: Manages server-side operations and database interactions.
    - MySQL: Stores and manages data, including books, borrowers, and transaction records.
+
 
 
 ## Installation
