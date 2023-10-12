@@ -26,15 +26,18 @@
    4. PHP: Manages server-side operations and database interactions.
    5. MySQL: Stores and manages data, including books, borrowers, and transaction records.
 
+
 ## Installation
 
   1. Clone the repository to your web server:
+
   
 ####     git clone                              
           https://github.com/Taufiqkhan12/LibraryManagementSystem.git
 
  2. Import the database schema located in **database/library.sql** to set up the required database tables.
- 
+
+
  3. Launch the application in your web browser:
 
          http://your-server/library-management-system/
