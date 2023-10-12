@@ -89,7 +89,6 @@ input {
 }
 
 .boy-reading {
-
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -108,18 +107,18 @@ input {
   border: none;
   cursor: pointer;
   font-family: inherit;
-  transition: all .3s ;
-  box-shadow: 0 .3rem .2rem rgba(0 , 0 ,0, .8);
+  transition: all 0.3s;
+  box-shadow: -6px 10px 27px rgba(3, 3, 3, 0.3);
 }
 
 .btn-form:hover {
-  transform: translateY(-.2rem);
+  transform: translateY(-0.2rem);
   color: white;
   background-color: #6622cc;
   border: 2px solid white;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, .5);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
 }
 
-.btn-form:active{
-  transform: translateY(.3rem);
+.btn-form:active {
+  transform: translateY(0.3rem);
 }
