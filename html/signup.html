@@ -8,6 +8,7 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <script src="../javascript/signup.js"></script>
     <title>SignUp</title>
   </head>
   <body>
@@ -15,11 +16,10 @@
       <div class="cols-2">
         <div class="form">
           <div class="form-content">
-            <div class="sign-up">
-              <p class="signup">SignUp</p>
-            </div>
+            <p class="signup">SignUp</p>
+
             <form class="cta-form" name="sign-up">
-              <div class="passcode">
+              <div class="passcode" id="passcode">
                 <input
                   id="passcode"
                   type="text"
@@ -33,7 +33,8 @@
                   class="icon-img"
                 />
               </div>
-              <div class="passcode">
+
+              <div class="passcode" id="full-name">
                 <input
                   id="full-name"
                   type="text"
@@ -47,25 +48,12 @@
                   class="icon-img"
                 />
               </div>
-              <div class="passcode">
+
+              <div class="passcode" id="email">
                 <input
                   id="email"
                   type="email"
                   placeholder="Email"
-                  name="email"
-                  required
-                />
-                <img
-                  src="../images/icons/user.png"
-                  alt="lock"
-                  class="icon-img"
-                />
-              </div>
-              <div class="passcode">
-                <input
-                  id="number"
-                  type="number"
-                  placeholder="Your 10 digit number"
                   name="email"
                   required
                 />
@@ -75,7 +63,23 @@
                   class="icon-img"
                 />
               </div>
-              <div class="passcode">
+
+              <div class="passcode" id="number">
+                <input
+                  id="number"
+                  type="number"
+                  placeholder="Your 10 digit number"
+                  name="email"
+                  required
+                />
+                <img
+                  src="../images/icons/phone-call.png"
+                  alt="lock"
+                  class="icon-img"
+                />
+              </div>
+
+              <div class="passcode" id="password">
                 <input
                   id="password"
                   type="password"
@@ -89,7 +93,8 @@
                   class="icon-img"
                 />
               </div>
-              <div class="passcode">
+
+              <div class="passcode" id="confirm-password">
                 <input
                   id="confirm-password"
                   type="password"
@@ -103,6 +108,7 @@
                   class="icon-img"
                 />
               </div>
+
               <button class="btn-form">SignUp</button>
               <a href="#" class="dir-login">Back To Login &rarr;</a>
             </form>
