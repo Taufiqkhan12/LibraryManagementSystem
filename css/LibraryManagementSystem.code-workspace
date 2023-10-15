@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "D:/Icons"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "LibraryManagementSystem"
+	}
+}

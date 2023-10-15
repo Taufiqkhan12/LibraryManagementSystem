@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/accountcreated.css" />
+    <title>Document</title>
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="animation">
+        <dotlottie-player
+          src="../json/data.json"
+          background="transparent"
+          speed="0.7"
+          style="width: 15rem; height: 15rem"
+          loop
+          autoplay
+        ></dotlottie-player>
+      </div>
+      <div class="created">
+        <h1>Great!</h1>
+        <p>Account Created Sucessfully</p>
+        <a href="login.html">Back to login &#8594;</a>
+      </div>
+    </div>
+  </body>
+</html>

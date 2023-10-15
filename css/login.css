@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  /* Does NOT work on Safari */
+  /* scroll-behavior: smooth; */
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+
+  /* Only works if there is nothing absolutely positioned in relation to body */
+  overflow-x: hidden;
+}
+
+.form {
+  height: 100vh;
+  width: 100vw;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 60rem;
+  width: 90rem;
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  position: relative;
+  overflow: hidden;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #6622cc;
+  /* border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px; */
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  z-index: 1;
+}
+
+.login {
+  margin-bottom: 4rem;
+  color: #ffff;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+input {
+  min-width: 100%;
+  width: 30rem;
+  padding: 0.8rem;
+  font-size: 1.6rem;
+  font-family: inherit;
+  color: #555;
+  background-color: #ffff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid #ffff;
+  margin-bottom: 2rem;
+}
+
+.password,
+.email {
+  position: relative;
+  display: flex;
+  align-content: center;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.password img,
+.email img {
+  position: absolute;
+  right: 0;
+  top: 8px;
+  width: 18px;
+  height: 18px;
+  margin-right: 4px;
+}
+
+.icon-img {
+  opacity: 0.6;
+}
+
+.girl-reading {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.btn-log-in {
+  width: 24rem;
+  margin-top: 2rem;
+  background-color: #ffff;
+  color: #6622cc;
+  padding: 0.8rem 6rem;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  border-radius: 9px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.3s;
+  box-shadow: -6px 10px 27px rgba(5, 5, 5, 0.3);
+}
+
+.btn-log-in:hover,
+.btn-log-in:active {
+  transform: translateY(-0.2rem);
+  color: white;
+  background-color: #6622cc;
+  border: 2px solid white;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+  transform: translateY(0.3rem);
+}
+
+.dir-sign-up {
+  text-decoration: none;
+  color: white;
+  margin-top: 4rem;
+  font-size: 1.4rem;
+  transition: all 0.3s;
+}
+
+.dir-sign-up:hover,
+.dir-sign-up:visited {
+  text-decoration: 1px underline;
+  transform: translateY(-0.3rem);
+}
+
+.dir-sign-up:active {
+  transform: translateY(0.2rem);
+}

@@ -1,0 +1,149 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* html{
+    font-size: 62.5%;
+} */
+
+/* // Navbar  */
+
+.primary_nav {
+  background-color: white;
+  border-bottom: 2px solid #6622cc;
+  /* box-shadow: 0 .1rem .1rem rgba(0, 0, 0, .5); */
+}
+.logo-name {
+  display: inline-block;
+  color: #6622cc;
+}
+.logo {
+  width: 35px;
+}
+
+.search-btn {
+  border: 2px solid #6622cc !important;
+  color: #6622cc !important;
+  transition: all 0.4s;
+}
+
+.search-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 0.4rem rgba(0, 0, 0, 0.5);
+}
+
+.search-btn:active {
+  transform: translateY(1px);
+}
+
+/* Secondary Nav  */
+
+.secondary_nav {
+  padding: 0;
+  box-shadow: 0 0.5rem 0.4rem rgba(0, 0, 0, 0.5);
+}
+
+.secondary_nav ul {
+  list-style: none;
+}
+
+.option_list {
+  padding: 0.5rem;
+}
+
+.secondary_nav ul li img {
+  width: 20px;
+  opacity: 0.6;
+  /* margin: 0 1rem ; */
+}
+.secondary_nav ul li {
+  padding: .7rem 0;
+}
+.secondary_nav ul li a {
+  text-decoration: none;
+  color: #6622cc;
+  margin: 1rem 1rem;
+}
+
+.secondary_nav ul li:last-child{
+  margin: 5rem 0 ;
+}
+
+.box_main {
+  display: flex;
+  justify-items: center;
+  margin: 0 auto;
+}
+
+.sub-box {
+  box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.5);
+  width: 20rem;
+  margin-left: 4rem;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tiny-box {
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  display: inline-flex;
+  border-radius: 0.5rem;
+}
+.values p {
+  color: #6622cc;
+  font-size: 0.8rem;
+}
+
+.values h4 {
+  font-weight: 700;
+  color: black;
+  text-align: center;
+}
+
+@media screen and (max-width: 1120px) {
+  .secondary_nav ul li a {
+    display: none;
+  }
+
+  .box_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .sub-box {
+    margin-top: 2rem;
+    width: 10rem;
+  }
+  .tiny-box {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+.table-box {
+  /* margin: 1rem 1rem; */
+}
+.table-heading {
+    color: #6622cc;
+}
+
+.table th,
+td {
+  text-align: center;
+}
+.color-trial {
+    background-color: #6622cc !important;
+}
+
+.trial {
+  display: block;
+  position: relative;
+  height: 23rem ;
+  overflow: auto;
+}
