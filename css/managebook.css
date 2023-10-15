@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  /* .li-active {
+    background-color: #6622cc;
+    color : white ;
+    border-radius: 2rem ;
+  } */
+
+
+  .search-btn-two {
+    background-color: #6622cc !important;
+    color: white ;
+    transition: all .8s;
+  }
+
+  .search-btn-two:hover {
+    box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+  
