@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  /* font-size: 62.5%; */
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  /* Does NOT work on Safari */
+  /* scroll-behavior: smooth; */
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+}
+
+table,
+th,
+td {
+  padding: 1rem;
+}
+
+.table {
+  width: 35vw;
+  background-color: #fff5;
+  /* height: 50vh; */
+}
