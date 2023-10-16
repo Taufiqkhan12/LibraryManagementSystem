@@ -65,7 +65,7 @@ input.form-control:focus {
 }
 
 .form-control {
-  width: 40rem !important;
+  /* width: 40rem !important; */
   font-family: inherit !important;
 }
 
@@ -209,4 +209,9 @@ a {
     width: 2rem;
     height: 2rem;
   }
+}
+
+.upper-section {
+  display: flex;
+  justify-content: space-around;
 }
