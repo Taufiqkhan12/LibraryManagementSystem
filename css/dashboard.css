@@ -19,7 +19,6 @@ html {
   /* font-size: 62.5%; */
   overflow-x: hidden;
   overflow-y: hidden;
-
   /* Does NOT work on Safari */
   /* scroll-behavior: smooth; */
 }
@@ -220,12 +219,27 @@ a {
   }
 }
 
+/* .table {
+  margin-left: 2rem !important;
+}
+
+.table-box {
+  box-shadow: 0 0.3rem 0.6rem rgba(179, 177, 177, 0.5);
+  width: 35rem !important;
+  background-color: #fff;
+  border-radius: 10px;
+  justify-content: space-between !important ;
+}
+
 .table-heading {
+  font-family: inherit !important;
   color: #6622cc;
 }
 
 .table th,
 td {
+  font-size: 18px;
+  font-family: inherit !important;
   text-align: center;
 }
 .color-trial {
@@ -237,4 +251,53 @@ td {
   position: relative;
   height: 23rem;
   overflow: auto;
+}
+
+table thead th {
+  border-collapse: collapse;
+  font-family: inherit;
+  background-color: #6622cc !important;
+  color: #fff !important;
+  padding: 0.5rem !important;
+  font-size: 18px;
+  font-weight: 400;
+  position: fixed;
+}
+
+thead {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
+
+td {
+  font-family: inherit !important;
+  font-family: 18px !important;
+  color: #545454 !important;
+}
+
+tbody th {
+  font-family: inherit !important;
+  font-size: 20px !important;
+  color: #545454 !important;
+
+  font-weight: 400;
+}
+
+.table-responsive-md {
+  scroll-behavior: smooth;
+  width: 35rem;
+  overflow: auto;
+}  */
+
+/* Details Table */
+
+.table-box {
+  background-color: #fff;
+  box-shadow: 0 0.3rem 0.6rem rgba(179, 177, 177, 0.5);
+}
+
+tr {
+  box-shadow: 0 0.3rem 0.6rem rgba(179, 177, 177, 0.5);
 }
